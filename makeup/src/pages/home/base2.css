@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(71, 122, 122);
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+}
+.filho{
+    display: flex;
+    flex-direction: row;
+    margin: 200px 0px;
+}
+.filho img{
+    width: 500px;
+}
+.texto h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 550px;
+    padding: 50px 0px;
+}
+.texto button{
+    padding: 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 40px 50px;
+    
+
+}
+.cabeca a{
+    font: 600 20px 'Sun';
+    text-decoration: none;
+    color: #000000;
+    border: #000000 solid 1px;    
+    padding: 10px 30px;
+
+}
+.cabeca h1{
+    font: 700 30px 'Sun';
+    color: beige;
+}

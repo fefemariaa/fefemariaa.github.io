@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(191, 207, 204);
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 30px 40px;
+    background-image: url(/public/assets/images/fundo\ base.avif);
+
+}
+.cabeca a {
+    font: 600 25px 'Sun';
+    text-decoration: none;
+    color: black;
+}
+.cabeca video{
+    width:400px;
+    border-radius: 30px;
+
+}
+.cabeca h1{
+    font: 600 50px 'Sun';
+    width: 200px;
+}
+.cabeca img{
+    width: 400px;
+    border-radius: 30px;
+}
+.filho{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.cartao{
+    display: flex ;
+    flex-direction: row;
+    gap: 200px;
+    padding: 200px 300px;
+    
+
+}
+.cartao img{
+    width: 500px;
+}
+.cartao :hover{
+    margin-top: 4px;
+}
+.faixa{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.faixa h1{
+    font: 600 30px 'Sun';
+    color: azure;
+    margin: 100px 150px;
+}
+.faixa img{
+    width: 400px;
+}

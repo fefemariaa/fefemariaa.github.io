@@ -1,0 +1,71 @@
+
+body{
+    background-color: #bd8282;
+}
+
+.pai{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: rgb(129, 35, 35);
+}
+.cabeca a {
+    font: 600 25px 'Sun';
+    text-decoration: none;
+    color: rgb(231, 170, 178);
+    margin: 30px 30px;
+
+}
+.cabeca img{
+    width: 500px;
+    border-radius: 30px;
+    margin: 30px 30px;
+}
+.cabeca h1{
+    font: 600 50px 'Sun';
+    width: 200px;
+    margin: 30px 30px;
+    color: rgb(231, 170, 178);
+
+
+
+}
+.filho{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.cartao{
+    display: flex ;
+    flex-direction: row;
+    gap: 200px;
+    padding: 200px 300px;
+    
+
+}
+.cartao img{
+    width: 500px;
+    border-radius: 20px;
+}
+.cartao :hover{
+    margin-top: 4px;
+}
+.faixa{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.faixa h1{
+    font: 600 30px 'Sun';
+    color: azure;
+    margin: 100px 150px;
+}
+.faixa img{
+    width: 400px;
+}

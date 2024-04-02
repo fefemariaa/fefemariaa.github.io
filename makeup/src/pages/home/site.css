@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(255, 189, 172);
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 40px 50px;
+    
+
+}
+.cabecario a{
+    font: 600 20px 'Sun';
+    text-decoration: none;
+    color: #000000;
+    border: #000000 solid 1px;    
+    padding: 10px 30px;
+
+}
+.cabecario h1{
+    font: 700 30px 'Sun';
+    color: beige;
+}
+.cabecario video{
+    border-radius: 20px;
+   
+}
+    
+
+.filho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 50px;
+    gap: 80px;
+}
+.filho h1{
+    font: 500 80px 'Sun';
+    margin: 0px 500px;
+    
+}
+.cartao{
+    display: flex;
+    flex-direction: column;
+
+}
+.cartao img{
+    border-radius: 30px;
+    width: 450px;
+    height: 450px;
+}
+.cartao :hover{
+    margin-top: 3px;
+
+
+}
+.filho2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 50px;
+    gap: 80px;
+}
+.cartao1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.cartao1 h1{
+    font: 600 60px 'Sun';
+    width: 300px;
+}
+.cartao1 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+.cartao1 video{
+    border-radius: 30px;
+}
